@@ -13,7 +13,7 @@ export default function Footer() {
             </a>
             <div className="
                 flex flex-col gap-3 text-center
-                md:text-start
+                md:text-end
                 ">
                 <TextSpan text="Feito com Esforço por Ronaldo Arley" />
                 <TextSpan text="@ Todos os Direitos Reservados - Ronaldo Arley" />

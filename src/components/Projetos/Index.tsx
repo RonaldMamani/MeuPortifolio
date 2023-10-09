@@ -152,6 +152,11 @@ export default function Projetos() {
                                     />
                                 </SwiperSlide>
                             ))}
+                        <div className="flex">
+                            <div className="swiper-button-prev slider-arrow"></div>
+                            <div className="swiper-button-next slider-arrow"></div>
+                            <div className="swiper-pagination"></div>
+                        </div>
                     </Swiper>
                 </div>
         </section>

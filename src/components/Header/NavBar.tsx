@@ -20,7 +20,7 @@ export default function NavBar() {
                 <LinkDesk Ref="#projetos" content="Projetos" />
                 <LinkDesk Ref="#contato" content="Contato" />
             </div>
-            <button className="lg:hidden relative" onClick={() => setOpen(!open)}>
+            <button className="lg:hidden " onClick={() => setOpen(!open)}>
                 {open ? (
                     <Image src={hamburger} alt="Icone Hamburger" />
                 ) : (
@@ -28,7 +28,7 @@ export default function NavBar() {
                 )}
             </button>
             <div className={`${open ? "hidden" : "absolute right-3 top-8"} 
-                flex flex-col gap-5 items-center bg-white p-5 rounded-2xl`}>
+                flex flex-col gap-5 items-center bg-white z-30 p-5 rounded-2xl`}>
                 <LinkMobile Ref="#sobre" content="Sobre"/>
                 <LinkMobile Ref="#tecnologias" content="Tecnologias" />
                 <LinkMobile Ref="#projetos" content="Projetos" />

@@ -8,7 +8,7 @@ import Sobre from "@/components/Sobre/Index";
 
 export default function Home() {
   return (
-    <main className="bg-black">
+    <main className="bg-black relative">
       <Header />
       <HomePage />
       <Sobre />

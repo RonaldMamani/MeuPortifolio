@@ -2,6 +2,7 @@ import TextPrincipal from "../Text/TextPrincipal";
 import TextSecundary from "../Text/TextSecundary";
 import TextDinamic from "../Text/TextDinamic";
 import { SiGithub, SiLinkedin } from "@icons-pack/react-simple-icons";
+import Header from "../Header/Index";
 
 
 export default function HomePage(){
@@ -16,7 +17,7 @@ export default function HomePage(){
                 absolute flex flex-col gap-8
                 px-4 py-4 text-center top-20
                 md:p-10 md:text-start
-                lg:px-32 lg:top-28
+                lg:px-32 lg:top-32
                 ">
                     <TextPrincipal className="text-3xl font-semibold" text="Olá, Meu Nome é"/>
                     <TextSecundary className="uppercase text-6xl font-extrabold" text="Ronaldo Arley"/>
