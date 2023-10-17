@@ -17,11 +17,23 @@ import TypeMaster from "@/../public/Projects/TypeMaster.jpg"
 import Loop from "@/../public/Projects/LoopStudio.jpg"
 import Art from "@/../public/Projects/ArtGallery.jpg"
 import Spitter from "@/../public/Projects/Splitter.jpg"
+import GitHub from "@/../public/Projects/GitHub.jpg"
 
 import TextDinamic from '../Text/TextDinamic';
 import Slides from './Slides';
 
 const ProjetosPessoais = [
+    {
+        imageSrc: GitHub,
+        title: "GitHub User Search",
+        description: `
+            Site de Busca de Usuario consumindo API do GitHub, utilizando ReactJS, NextJS e StyledComponents, o site e responsivo
+            para diversas telas.
+            `,
+        gitLink: "https://github.com/RonaldMamani/GitHub_User_Search",
+        hostedLink: "https://git-hub-user-search-ashy.vercel.app/",
+        technologies: ["HTML", "CSS", "JavaScript", "StyledComponents", "ReactJs", "NextJs"],
+    },
     {
         imageSrc: Spitter,
         title: "Spitter",
