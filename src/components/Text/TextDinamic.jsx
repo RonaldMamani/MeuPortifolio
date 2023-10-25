@@ -20,6 +20,6 @@ export default function TextDinamic({text, textDinamic1, textDinamic2, className
     },[])
 
     return (
-        <p className={className}>{text}<span className={classNameDinamic} ref={el}></span></p>
+        <p className={`${className} text-white`}>{text}<span className={classNameDinamic} ref={el}></span></p>
     )
 }

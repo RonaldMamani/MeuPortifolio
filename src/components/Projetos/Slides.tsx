@@ -34,7 +34,7 @@ export default function Slides({ imageSrc, title, description, gitLink, hostedLi
                 md:py-1 md:px-3 
                 lg:p-4`}>
                 <div className="py-4 flex flex-col gap-6 lg:gap-8 items-center">
-                    <TextSecundary className="text-3xl font-extrabold uppercase" text={title} />
+                    <TextSecundary className="text-3xl font-extrabold uppercase text-white" text={title} />
                     <div className="flex flex-col gap-3">
                         <TextCommon className="text-gray-300 font-bold uppercase" text="Descrição: " />
                         <TextCommon className="text-sm text-gray-300" text={description} />

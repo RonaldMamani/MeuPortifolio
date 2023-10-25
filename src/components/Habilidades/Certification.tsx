@@ -113,13 +113,13 @@ export default function Certification() {
             </div>
             {!open ? (
                 <button 
-                    className="bg-sky-800 mt-10 px-5 py-2 rounded-full text-xl font-bold transition-colors hover:bg-blue-500" 
+                    className="bg-sky-800 mt-10 px-5 py-2 rounded-full text-xl text-white font-bold transition-colors hover:bg-blue-500" 
                     onClick={() => setOpen(!open)}>
                     Mostrar Mais
                 </button>
             ) : (
                 <button 
-                    className="bg-sky-800 mt-10 px-5 py-2 rounded-full text-xl font-bold transition-colors hover:bg-blue-500" 
+                    className="bg-sky-800 mt-10 px-5 py-2 rounded-full text-xl text-white font-bold transition-colors hover:bg-blue-500" 
                     onClick={() => setOpen(!open)}>
                     Mostrar Menos
                 </button>
