@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Portifolio
 
-First, run the development server:
+Criação de Portifolio profissional, mostrando minhas tecnologia e habilidades e projetos que realizei.
+
+## Stack utilizada
+
+**Front-end:** ReactJS, NextJS, TailwindCSS, npm
+
+
+
+## Instalação
+
+Clone o Repositorio
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/RonaldMamani/MeuPortifolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Execute o codigo com 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+    npm run dev
+```
+## Link do Deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+O site esta hospedado no momento, esta na vercel com deploy realizado.
 
-## Learn More
+Link: https://ronaldmamani-dev.vercel.app/
 
-To learn more about Next.js, take a look at the following resources:
+## Aprendizados
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Aprendi a fazer deploy com NextJS com a vercel, tambem a utilização de dependencias do npm, e tambem conhecimentos solidos com typescript e reactjs com nextjs, tambem utilização do TailwindCSS.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Autores
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [@Ronaldmamani](https://www.github.com/RonaldMamani)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
