@@ -12,6 +12,7 @@ import styledcomponents from "@/../public/styled-components.svg"
 import tailwind from "@/../public/tailwind-css.svg"
 import node from "@/../public/nodejs.svg"
 import react from "@/../public/react.svg"
+import angular from "@/../public/angular.svg"
 import TS from "@/../public/typescript.svg"
 import next from "@/../public/next-js.svg"
 import java from "@/../public/java-4.svg"
@@ -20,8 +21,6 @@ import git from "@/../public/git.svg"
 
 import { useState } from "react";
 import TextDinamic from "../Text/TextDinamic";
-import { SiBootstrap, SiGit, SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiSass, SiStyledcomponents, SiTailwindcss, SiTypescript, SiCplusplus} from "@icons-pack/react-simple-icons";
-
 
 export default function Techs() {
     const [open, setOpen] = useState(false)
@@ -41,7 +40,7 @@ export default function Techs() {
                     />
                 <TextCommon 
                     className="text-gray-400"
-                    text="Eu tenho pleno conhecimento e experiencia em HMTL, CSS, JavaScript, ReactJS, NodeJS, Bootstrap, TailwindCSS, TypeScript, NextJS, Sass, Styled Components, Java e C++"
+                    text="Eu tenho pleno conhecimento e experiencia em HMTL, CSS, JavaScript, ReactJS, NodeJS, Bootstrap, TailwindCSS, TypeScript, NextJS, Angular, Sass, Styled Components, Java e C++"
                     />
             </div>
             <div className="
@@ -63,9 +62,10 @@ export default function Techs() {
                     <Image src={react} alt="ReactJs" title="ReactJs" />
                     <Image src={TS} alt="TypeScript" title="TypeScript" />
                     <Image className="bg-white rounded-full p-1" src={next} alt="NextJs" title="NextJs" />
-                    <Image src={git} alt="Git" title="Git" />
+                    <Image src={angular} alt="Angular" title="Angular" />
                     {open ? (
                         <>
+                            <Image src={git} alt="Git" title="Git" />
                             <Image className="m-auto fill-black" src={java} alt="Java" width={55} title="Java" />
                             <Image src={c} alt="C++" title="C++" />
                         </>

@@ -6,7 +6,7 @@ import Image, { StaticImageData } from "next/image";
 import TextSecundary from "../Text/TextSecundary";
 import TextCommon from "../Text/TextCommon";
 import ButtonLink from "../Buttons/ButtonLink";
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiBootstrap, SiStyledcomponents, SiSass, SiNextdotjs, SiTypescript, SiNodedotjs } from "@icons-pack/react-simple-icons";
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiBootstrap, SiStyledcomponents, SiSass, SiNextdotjs, SiTypescript, SiNodedotjs, SiAngular } from "@icons-pack/react-simple-icons";
 
 type SlideProps = {
     imageSrc: StaticImageData;
@@ -55,6 +55,7 @@ export default function Slides({ imageSrc, title, description, gitLink, hostedLi
                                     {tech === "CSS" && <SiCss3 width={30} height={30} color="#1572B6" title="CSS" />}
                                     {tech === "JavaScript" && <SiJavascript width={30} height={30} color="#F7DF1E" title="JavaScript" />}
                                     {tech === "ReactJs" && <SiReact width={30} height={30} color="#61DAFB" title="ReactJs" />}
+                                    {tech === "Angular" && <SiAngular width={30} height={30} color="#E23237" title="Angular" />}
                                     {tech === "TailwindCSS" && <SiTailwindcss width={30} height={30} color="#06B6D4" title="TailwindCSS" />}
                                     {tech === "Bootstrap" && <SiBootstrap width={30} height={30} color="#7952B3" title="Bootstrap5" />}
                                     {tech === "StyledComponents" && <SiStyledcomponents width={30} height={30} color="#D87893" title="StyledComponents" />}

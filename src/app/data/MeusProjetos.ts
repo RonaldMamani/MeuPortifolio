@@ -6,11 +6,38 @@ import Loop from "@/../public/Projects/LoopStudio.jpg"
 import Art from "@/../public/Projects/ArtGallery.jpg"
 import Spitter from "@/../public/Projects/Splitter.jpg"
 import GitHub from "@/../public/Projects/GitHub.jpg"
+import HealtyRecipes from "@/../public/Projects/healty-Recipes.jpg"
+import ReactStock from "@/../public/Projects/React-Stock.jpg"
+
 import { Project } from "../types/Project"
 
 export const MeusProjetos: Project[] = [
     {
         id: 1,
+        imageSrc: HealtyRecipes,
+        title: "Healty Recipes",
+        description: `
+            Site de Receitas e Busca de Receitas, o projeto tem o objetivo de mostrar receitas consumindo API de Receitas,
+            existe também a busca de receitas relacionadas na busca.
+            `,
+        gitLink: "https://github.com/RonaldMamani/Healty_Recipes",
+        hostedLink: "https://healty-recipes-pi.vercel.app/",
+        technologies: ["HTML", "CSS", "TypeScript", "Bootstrap", "Angular"],
+    },
+    {
+        id: 2,
+        imageSrc: ReactStock,
+        title: "React Stock",
+        description: `
+            Sistema de Gerenciamento de Estoque, onde tem a funcionalidade de Adicionar, Modificar e Excluir objetos do Estoque,
+            Tambem podemos vizualizar a quantidade de produtos no estoque.
+            `,
+        gitLink: "https://github.com/RonaldMamani/Stock-React",
+        hostedLink: "https://stock-react-eight.vercel.app/",
+        technologies: ["HTML", "CSS", "JavaScript", "ReactJs"],
+    },
+    {
+        id: 3,
         imageSrc: GitHub,
         title: "GitHub User Search",
         description: `
@@ -22,7 +49,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "StyledComponents", "ReactJs", "NextJs"],
     },
     {
-        id: 2,
+        id: 4,
         imageSrc: Spitter,
         title: "Spitter",
         description: `
@@ -33,7 +60,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 3,
+        id: 5,
         imageSrc: Art,
         title: "Art Gallery",
         description: `
@@ -44,7 +71,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs", "NextJs"],
     },
     {
-        id: 4,
+        id: 6,
         imageSrc: Loop,
         title: "Loop Studios",
         description: `
@@ -55,7 +82,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 5,
+        id: 7,
         imageSrc: Blogr,
         title: "Blogr",
         description: `
@@ -66,7 +93,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 6,
+        id: 8,
         imageSrc: Sunnyside,
         title: "SunnySide",
         description: `
@@ -78,7 +105,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 7,
+        id: 9,
         imageSrc: News,
         title: "News HomePage",
         description: `
@@ -90,7 +117,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML","JavaScript", "TailwindCSS", "Bootstrap", "ReactJs"],
     },
     {
-        id: 8,
+        id: 10,
         imageSrc: TypeMaster,
         title: "TypeMaster",
         description: `
