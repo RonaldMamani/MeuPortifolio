@@ -8,6 +8,8 @@ import Spitter from "@/../public/Projects/Splitter.jpg"
 import GitHub from "@/../public/Projects/GitHub.jpg"
 import HealtyRecipes from "@/../public/Projects/healty-Recipes.jpg"
 import ReactStock from "@/../public/Projects/React-Stock.jpg"
+import PlanetsFact from "@/../public/Projects/PlanetsFact.jpg"
+import SpaceTourism from "@/../public/Projects/SpaceTourism.jpg"
 
 import { Project } from "../types/Project"
 
@@ -26,6 +28,30 @@ export const MeusProjetos: Project[] = [
     },
     {
         id: 2,
+        imageSrc: PlanetsFact,
+        title: "Planets Fact",
+        description: `
+            Site de Fatos de Planetas com todos os planetas do Sistema Solar, o site foi construido utilizando React com Typescript
+            com Router para utilização de navegação dentro do site.
+            `,
+        gitLink: "https://github.com/RonaldMamani/Planets_Fact",
+        hostedLink: "https://planets-fact-cyan.vercel.app/",
+        technologies: ["HTML", "CSS", "TypeScript", "TailwindCSS", "ReactJs"],
+    },
+    {
+        id: 3,
+        imageSrc: SpaceTourism,
+        title: "Space Tourism",
+        description: `
+            Site de Turismo Espacial, onde podemos navegar para saber sobre a empresa e onde encontramos pessoas, projetos e planetas 
+            relacionados a empresa. o site foi construido utilizando Angular 17 com Typescript com TailwindCSS com Router.
+            `,
+        gitLink: "https://github.com/RonaldMamani/SpaceTourism_Angular",
+        hostedLink: "https://space-tourism-angular-sigma.vercel.app/",
+        technologies: ["HTML", "CSS", "TypeScript", "TailwindCSS", "Angular"],
+    },
+    {
+        id: 4,
         imageSrc: ReactStock,
         title: "React Stock",
         description: `
@@ -37,7 +63,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "ReactJs"],
     },
     {
-        id: 3,
+        id: 5,
         imageSrc: GitHub,
         title: "GitHub User Search",
         description: `
@@ -49,7 +75,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "StyledComponents", "ReactJs", "NextJs"],
     },
     {
-        id: 4,
+        id: 6,
         imageSrc: Spitter,
         title: "Spitter",
         description: `
@@ -60,7 +86,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 5,
+        id: 7,
         imageSrc: Art,
         title: "Art Gallery",
         description: `
@@ -71,7 +97,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs", "NextJs"],
     },
     {
-        id: 6,
+        id: 8,
         imageSrc: Loop,
         title: "Loop Studios",
         description: `
@@ -82,7 +108,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 7,
+        id: 9,
         imageSrc: Blogr,
         title: "Blogr",
         description: `
@@ -93,7 +119,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 8,
+        id: 10,
         imageSrc: Sunnyside,
         title: "SunnySide",
         description: `
@@ -105,7 +131,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 9,
+        id: 11,
         imageSrc: News,
         title: "News HomePage",
         description: `
@@ -117,7 +143,7 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML","JavaScript", "TailwindCSS", "Bootstrap", "ReactJs"],
     },
     {
-        id: 10,
+        id: 12,
         imageSrc: TypeMaster,
         title: "TypeMaster",
         description: `
