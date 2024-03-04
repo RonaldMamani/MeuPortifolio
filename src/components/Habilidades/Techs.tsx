@@ -3,21 +3,21 @@
 import Image from "next/image";
 import TextCommon from "../Text/TextCommon";
 
-import css from "@/../public/css.svg"
-import html from "@/../public/html.svg"
-import js from "@/../public/javascript.svg"
-import sass from "@/../public/sass.svg"
-import bootstrap from "@/../public/bootstrap.svg"
-import styledcomponents from "@/../public/styled-components.svg"
-import tailwind from "@/../public/tailwind-css.svg"
-import node from "@/../public/nodejs.svg"
-import react from "@/../public/react.svg"
-import angular from "@/../public/angular.svg"
-import TS from "@/../public/typescript.svg"
-import next from "@/../public/next-js.svg"
-import java from "@/../public/java-4.svg"
-import c from "@/../public/c.svg"
-import git from "@/../public/git.svg"
+import css from "@/../public/Tecnologias/css.svg"
+import html from "@/../public/Tecnologias/html.svg"
+import js from "@/../public/Tecnologias/javascript.svg"
+import sass from "@/../public/Tecnologias/sass.svg"
+import bootstrap from "@/../public/Tecnologias/bootstrap.svg"
+import styledcomponents from "@/../public/Tecnologias/styled-components.svg"
+import tailwind from "@/../public/Tecnologias/tailwind-css.svg"
+import node from "@/../public/Tecnologias/nodejs.svg"
+import react from "@/../public/Tecnologias/react.svg"
+import angular from "@/../public/Tecnologias/angular.svg"
+import TS from "@/../public/Tecnologias/typescript.svg"
+import next from "@/../public/Tecnologias/next-js.svg"
+import java from "@/../public/Tecnologias/java-4.svg"
+import c from "@/../public/Tecnologias/c.svg"
+import git from "@/../public/Tecnologias/git.svg"
 
 import { useState } from "react";
 import TextDinamic from "../Text/TextDinamic";

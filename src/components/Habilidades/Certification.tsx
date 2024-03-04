@@ -1,12 +1,21 @@
 "use client"
 
-import Alura from "@/../public/alura-logo.png"
-import OBC from "@/../public/OBC-logo.jpg"
 import CardCertification from "../Cards/CardCertification"
 import { useState } from "react"
+import { MyCertifications } from "@/app/data/MyCertifications"
+import { Certification } from "@/app/types/Certification";
 
-export default function Certification() {
-    const [open, setOpen] = useState(false)
+export default function Certification () {
+    const [visibleCount, setVisibleCount] = useState(8);
+    const [showAll, setShowAll] = useState(false);
+
+    const handleShowMore = () => {
+        setShowAll(true);
+    };
+
+    const handleShowLess = () => {
+        setShowAll(false);
+    };
 
     return (
         <div className="flex flex-col gap-5 items-center">
@@ -16,114 +25,31 @@ export default function Certification() {
                 lg:grid-cols-3
                 xl:grid-cols-4
                 ">
-                <CardCertification
-                    image={Alura}
-                    NameCertification="HTML5" 
-                    Institution="Alura" 
-                    Age="2022" 
-                />
-                <CardCertification
-                    image={Alura}
-                    NameCertification="CSS3" 
-                    Institution="Alura" 
-                    Age="2022" 
-                />
-                <CardCertification
-                    image={Alura}
-                    NameCertification="Formação Front-End" 
-                    Institution="Alura" 
-                    Age="2022" 
-                />
-                <CardCertification
-                    image={Alura}
-                    NameCertification="JavaScript com DOM" 
-                    Institution="Alura" 
-                    Age="2022" 
-                />
-                <CardCertification
-                    image={Alura}
-                    NameCertification="Bootstrap5" 
-                    Institution="Alura" 
-                    Age="2022" 
-                />
-                <CardCertification
-                    image={Alura}
-                    NameCertification="Flexbox e Grid" 
-                    Institution="Alura" 
-                    Age="2022" 
-                />
-                <CardCertification
-                    image={Alura}
-                    NameCertification="Layout Responsivos" 
-                    Institution="Alura" 
-                    Age="2022" 
-                />
-                <CardCertification
-                    image={Alura}
-                    NameCertification="SEO" 
-                    Institution="Alura" 
-                    Age="2022" 
-                />
-                {open ? (
-                    <>
+                {MyCertifications.slice(0, showAll ? MyCertifications.length : visibleCount).map((certification) => (
                     <CardCertification
-                    image={OBC}
-                    NameCertification="Trilha JavaScript" 
-                    Institution="OneBitCode" 
-                    Age="2023" 
+                        key={certification.id}
+                        image={certification.ImageInstitutional}
+                        NameCertification={certification.NameCertification}
+                        Institution={certification.Institution}
+                        Age={certification.Age}
+                        Url={certification.UrlCertification}
                     />
-                    <CardCertification
-                        image={OBC}
-                        NameCertification="Sass" 
-                        Institution="OneBitCode" 
-                        Age="2023" 
-                    />
-                    <CardCertification
-                        image={OBC}
-                        NameCertification="GitHub" 
-                        Institution="OneBitCode" 
-                        Age="2023" 
-                    />
-                    <CardCertification
-                        image={OBC}
-                        NameCertification="TailwindCSS" 
-                        Institution="OneBitCode" 
-                        Age="2023" 
-                    />
-                    <CardCertification
-                    image={OBC}
-                    NameCertification="TypeScript" 
-                    Institution="OneBitCode" 
-                    Age="2023" 
-                    />
-                    <CardCertification
-                        image={OBC}
-                        NameCertification="ReactJs" 
-                        Institution="OneBitCode" 
-                        Age="2023" 
-                    />
-                    <CardCertification
-                        image={OBC}
-                        NameCertification="NextJs" 
-                        Institution="OneBitCode" 
-                        Age="2023" 
-                    />
-                    </>
-                ): null}
+                ))}
             </div>
-            {!open ? (
+            {!showAll && visibleCount < MyCertifications.length &&
                 <button 
                     className="bg-sky-800 mt-10 px-5 py-2 rounded-full text-xl text-white font-bold transition-colors hover:bg-blue-500" 
-                    onClick={() => setOpen(!open)}>
+                    onClick={handleShowMore} >
                     Mostrar Mais
                 </button>
-            ) : (
+            }
+            {showAll &&
                 <button 
                     className="bg-sky-800 mt-10 px-5 py-2 rounded-full text-xl text-white font-bold transition-colors hover:bg-blue-500" 
-                    onClick={() => setOpen(!open)}>
+                    onClick={handleShowLess}>
                     Mostrar Menos
                 </button>
-            )}
+            }
         </div>
     )
 }

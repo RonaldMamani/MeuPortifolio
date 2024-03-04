@@ -2,7 +2,6 @@ import TextPrincipal from "../Text/TextPrincipal";
 import TextSecundary from "../Text/TextSecundary";
 import TextDinamic from "../Text/TextDinamic";
 import { SiGithub, SiLinkedin } from "@icons-pack/react-simple-icons";
-import Header from "../Header/Index";
 
 
 export default function HomePage(){

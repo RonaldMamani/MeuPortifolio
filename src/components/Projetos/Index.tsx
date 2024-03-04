@@ -11,9 +11,9 @@ import {Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 
 import TextDinamic from '../Text/TextDinamic';
-import Slides from './Slides';
+import Slide from './Slide';
 
-import { MeusProjetos } from '@/app/data/MeusProjetos'
+import { MyProjects } from '@/app/data/MyProjects'
 
 export default function Projetos() {
     return (
@@ -58,9 +58,9 @@ export default function Projetos() {
                         modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
                         className="xl:w-[70%]"
                         >
-                            {MeusProjetos.map((slides) => (
+                            {MyProjects.map((slides) => (
                                 <SwiperSlide key={slides.id}>
-                                    <Slides 
+                                    <Slide
                                         imageSrc={slides.imageSrc}
                                         title={slides.title}
                                         description={slides.description}

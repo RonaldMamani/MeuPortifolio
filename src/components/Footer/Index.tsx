@@ -9,7 +9,12 @@ export default function Footer() {
             lg:px-32 
             ">
             <a href="/" title="Logotipo">
-                <TextDinamic className="text-2xl font-semibold" classNameDinamic=" text-sky-700" text="RONALD" textDinamic1="_ARLEY" textDinamic2="_MAMANI" />
+                <TextDinamic 
+                    className="text-2xl font-semibold" 
+                    classNameDinamic=" text-sky-700" 
+                    text="RONALD" 
+                    textDinamic1="_ARLEY" 
+                    textDinamic2="_MAMANI" />
             </a>
             <div className="
                 flex flex-col gap-3 text-center

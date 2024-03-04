@@ -26,19 +26,24 @@ export default function Contact() {
                                 flex flex-col justify-center gap-8 items-center
                                 lg:flex-row
                                 ">
-                                <a target="_blank" href="https://api.whatsapp.com/send?phone=5511912628484" className="
+                                <a 
+                                    target="_blank" 
+                                    href="https://api.whatsapp.com/send?phone=5511912628484" 
+                                    className="
                                     border-4 border-gray-500 rounded-full py-2 px-4 items-center flex gap-3 text-white
                                     group hover:border-green-500 transition-colors
                                     ">
                                     <SiWhatsapp className="group-hover:fill-[#25D366] rounded-full transition-colors" />
-                                    <span className="text-xl font-bold group-hover:text-green-500 transition-colors">(11) 91262-8484</span>
+                                    <span 
+                                        className="text-xl font-bold group-hover:text-green-500 transition-colors">(11) 91262-8484</span>
                                 </a>
                                 <button className="
                                     border-4 border-gray-500 rounded-full py-2 px-4 items-center flex gap-3 text-white
                                     group hover:border-[#EA4335] transition-colors
                                     ">
                                     <SiGmail className="group-hover:fill-[#EA4335] rounded-full transition-colors" width={25} height={20} />
-                                    <span className="text-xl font-bold group-hover:text-[#EA4335] transition-colors">Ronaldmamani140@gmail.com</span>
+                                    <span 
+                                        className="text-xl font-bold group-hover:text-[#EA4335] transition-colors">Ronaldmamani140@gmail.com</span>
                                 </button>
                             </div>
                         </div>
