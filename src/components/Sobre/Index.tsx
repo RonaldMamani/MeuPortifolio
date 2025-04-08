@@ -23,7 +23,7 @@ export default function Sobre() {
                     lg:col-span-2 lg:text-start">
                     <TextDinamic className="text-2xl font-extrabold font-serif" classNameDinamic="uppercase text-sky-700" text="Sou Ronaldo Arley e sou " textDinamic1="Desenvolvedor Front-End" textDinamic2="Programador Front-End" />
                     <TextCommon className="text font-serif" 
-                    text="Olá sou Ronaldo Arley, sou de São Paulo, SP, sou formado em Sistemas de Informação da Universidade Anhembi Morumbi(UAM), 
+                    text="Olá sou Ronaldo Arley, sou de São Paulo, SP, sou formado em Sistemas de Informação da Universidade Anhembi Morumbi(UAM), e aatualmente estou cursando Analise e Desenvolvimento de Sistemas 
                         sou alguem interessado pela área de Tecnologia, meu primeiro acesso com a programação foi atravez da Universidade em 2020, comecei utilizando a linguagem Java e C++,
                         logo depois escalonei em estrutura de dados, POO(Programação Orientada a Objetos), logo ápos comecei a me interessar pela área
                         Front-End, onde busquei conhecimentos em HTML, CSS e JavaScript através de aulas virtuais e cursos e  durante a Graduação na Universidade.

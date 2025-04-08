@@ -2,12 +2,54 @@ import SpaceTourism from "@/../public/Projetos/SpaceTourism.jpg"
 import PlanetsFact from "@/../public/Projetos/PlanetsFact.jpg"
 import ArtGallery from "@/../public/Projetos/ArtGallery.jpg"
 import Spitter from "@/../public/Projetos/Splitter.jpg"
+import Stock from "@/../public/Projetos/React-Stock.jpg"
+import Recipes from "@/../public/Projetos/healty-Recipes.jpg"
+import GitHub from "@/../public/Projetos/GitHub.jpg"
+
+import Blogr from "@/../public/Projetos/Blogr.jpg"
+import Sunnyside from "@/../public/Projetos/Sunnyside.jpg"
+import News from "@/../public/Projetos/NewsHP.jpg"
+import Loop from "@/../public/Projetos/LoopStudio.jpg"
+
 
 import { Project } from "../types/Project";
 
 export const MyProjects: Project[] = [
+    {   id:1,
+        imageSrc: Stock,
+        title: "Sitema de Estoque",
+        description: `
+            Sistema de Gerenciamento de Estoque onde pode adicionar, editar, remover e vizualizar o estoque, desenvolvido com 
+            Reactjs, Javacript e TailwindCSS.
+        `,
+        gitLink: "https://github.com/RonaldMamani/Stock-React",
+        hostedLink: "https://stock-react-eight.vercel.app/",
+        technologies: ["HTML", "CSS", "JavaScript", "ReactJs", "TailwindCSS"],
+    },
+    {   id:2,
+        imageSrc: Recipes,
+        title: "Site de Receitas",
+        description: `
+            Site de Receitas Online onde pode visualizar as receitas atraves de uma API de Receitas, projeto desenvolvido com 
+            Angular, Typescript e Bootstrap
+        `,
+        gitLink: "https://github.com/RonaldMamani/Healty_Recipes",
+        hostedLink: "https://healty-recipes-pi.vercel.app/",
+        technologies: ["HTML", "CSS", "TypeScript", "Angular", "Bootstrap"],
+    },
+    {   id:3,
+        imageSrc: GitHub,
+        title: "Buscador de GitHub",
+        description: `
+            Buscador de Conta de GitHub, site onde busco os usuarios do GitHub atraves da API do GitHub, o projeto foi desenvolvido com 
+            ReactJs, Typescript e StyledComponents
+        `,
+        gitLink: "https://github.com/RonaldMamani/GitHub_User_Search",
+        hostedLink: "https://git-hub-user-search-ashy.vercel.app/",
+        technologies: ["HTML", "CSS", "TypeScript", "ReactJs", "StyledComponents"],
+    },
     {
-        id: 1,
+        id: 4,
         imageSrc: PlanetsFact,
         title: "Planets Fact",
         description: `
@@ -19,7 +61,7 @@ export const MyProjects: Project[] = [
         technologies: ["HTML", "CSS", "TypeScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 2,
+        id: 5,
         imageSrc: SpaceTourism,
         title: "Space Tourism",
         description: `
@@ -31,7 +73,7 @@ export const MyProjects: Project[] = [
         technologies: ["HTML", "CSS", "TypeScript", "TailwindCSS", "Angular"],
     },
     {
-        id: 3,
+        id: 6,
         imageSrc: Spitter,
         title: "Spitter",
         description: `
@@ -42,7 +84,7 @@ export const MyProjects: Project[] = [
         technologies: ["HTML", "CSS", "JavaScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 4,
+        id: 7,
         imageSrc: ArtGallery,
         title: "Art Gallery",
         description: `
