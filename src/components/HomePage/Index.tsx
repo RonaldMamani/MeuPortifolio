@@ -5,7 +5,7 @@ import { SiGithub, SiLinkedin } from "@icons-pack/react-simple-icons";
 
 
 export default function HomePage(){
-    return (
+    return(
         <section className="relative">
             <div className="
                 bg-[url('../../public/bg.webp')] bg-cover blur-sm h-[calc(100vh-4rem)]

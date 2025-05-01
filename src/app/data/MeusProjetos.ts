@@ -1,15 +1,15 @@
-import Blogr from "@/../public/Projects/Blogr.jpg"
-import Sunnyside from "@/../public/Projects/Sunnyside.jpg"
-import News from "@/../public/Projects/NewsHP.jpg"
-import TypeMaster from "@/../public/Projects/TypeMaster.jpg"
-import Loop from "@/../public/Projects/LoopStudio.jpg"
-import Art from "@/../public/Projects/ArtGallery.jpg"
-import Spitter from "@/../public/Projects/Splitter.jpg"
-import GitHub from "@/../public/Projects/GitHub.jpg"
-import HealtyRecipes from "@/../public/Projects/healty-Recipes.jpg"
-import ReactStock from "@/../public/Projects/React-Stock.jpg"
-import PlanetsFact from "@/../public/Projects/PlanetsFact.jpg"
-import SpaceTourism from "@/../public/Projects/SpaceTourism.jpg"
+import Blogr from "@/../public/Projetos/Blogr.jpg"
+import Sunnyside from "@/../public/Projetos/Sunnyside.jpg"
+import News from "@/../public/Projetos/NewsHP.jpg"
+import TypeMaster from "@/../public/Projetos/TypeMaster.jpg"
+import Loop from "@/../public/Projetos/LoopStudio.jpg"
+import Art from "@/../public/Projetos/ArtGallery.jpg"
+import Spitter from "@/../public/Projetos/Splitter.jpg"
+import GitHub from "@/../public/Projetos/GitHub.jpg"
+import HealtyRecipes from "@/../public/Projetos/healty-Recipes.jpg"
+import ReactStock from "@/../public/Projetos/React-Stock.jpg"
+import PlanetsFact from "@/../public/Projetos/PlanetsFact.jpg"
+import SpaceTourism from "@/../public/Projetos/SpaceTourism.jpg"
 
 import { Project } from "../types/Project"
 
@@ -28,6 +28,18 @@ export const MeusProjetos: Project[] = [
     },
     {
         id: 2,
+        imageSrc: ReactStock,
+        title: "React Stock - Sistema de Estoque",
+        description: `
+            Sistema de Gerenciamento de Estoque, onde tem a funcionalidade de Adicionar, Modificar e Excluir objetos do Estoque,
+            Tambem podemos vizualizar a quantidade de produtos no estoque.
+            `,
+        gitLink: "https://github.com/RonaldMamani/Stock-React",
+        hostedLink: "https://stock-react-eight.vercel.app/",
+        technologies: ["HTML", "CSS", "JavaScript", "ReactJs"],
+    },
+    {
+        id: 3,
         imageSrc: PlanetsFact,
         title: "Planets Fact",
         description: `
@@ -39,7 +51,19 @@ export const MeusProjetos: Project[] = [
         technologies: ["HTML", "CSS", "TypeScript", "TailwindCSS", "ReactJs"],
     },
     {
-        id: 3,
+        id: 4,
+        imageSrc: GitHub,
+        title: "GitHub User Search",
+        description: `
+            Site de Busca de Usuario consumindo API do GitHub, utilizando ReactJS, NextJS e StyledComponents, o site e responsivo
+            para diversas telas.
+            `,
+        gitLink: "https://github.com/RonaldMamani/GitHub_User_Search",
+        hostedLink: "https://git-hub-user-search-ashy.vercel.app/",
+        technologies: ["HTML", "CSS", "JavaScript", "StyledComponents", "ReactJs"],
+    },
+    {
+        id: 5,
         imageSrc: SpaceTourism,
         title: "Space Tourism",
         description: `
@@ -49,30 +73,6 @@ export const MeusProjetos: Project[] = [
         gitLink: "https://github.com/RonaldMamani/SpaceTourism_Angular",
         hostedLink: "https://space-tourism-angular-sigma.vercel.app/",
         technologies: ["HTML", "CSS", "TypeScript", "TailwindCSS", "Angular"],
-    },
-    {
-        id: 4,
-        imageSrc: ReactStock,
-        title: "React Stock",
-        description: `
-            Sistema de Gerenciamento de Estoque, onde tem a funcionalidade de Adicionar, Modificar e Excluir objetos do Estoque,
-            Tambem podemos vizualizar a quantidade de produtos no estoque.
-            `,
-        gitLink: "https://github.com/RonaldMamani/Stock-React",
-        hostedLink: "https://stock-react-eight.vercel.app/",
-        technologies: ["HTML", "CSS", "JavaScript", "ReactJs"],
-    },
-    {
-        id: 5,
-        imageSrc: GitHub,
-        title: "GitHub User Search",
-        description: `
-            Site de Busca de Usuario consumindo API do GitHub, utilizando ReactJS, NextJS e StyledComponents, o site e responsivo
-            para diversas telas.
-            `,
-        gitLink: "https://github.com/RonaldMamani/GitHub_User_Search",
-        hostedLink: "https://git-hub-user-search-ashy.vercel.app/",
-        technologies: ["HTML", "CSS", "JavaScript", "StyledComponents", "ReactJs", "NextJs"],
     },
     {
         id: 6,

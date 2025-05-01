@@ -1,39 +1,55 @@
 
-# Portifolio
+# 💼 Portfólio Profissional
 
-Criação de Portifolio profissional, mostrando minhas tecnologia e habilidades e projetos que realizei.
+Este repositório contém meu **portfólio pessoal**, desenvolvido com o objetivo de apresentar minhas **habilidades técnicas**, **tecnologias dominadas** e **projetos realizados**.
 
-## Stack utilizada
+---
 
-**Front-end:** ReactJS, NextJS, TailwindCSS, npm
+## 🚀 Tecnologias Utilizadas
 
+- **Front-end:** [React.js](https://reactjs.org/), [Next.js](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/)
+- **Bibliotecas e Pacotes:**
+  - [Swiper](https://swiperjs.com/) – carrossel interativo
+  - [Typed.js](https://github.com/mattboldt/typed.js/) – efeito de digitação animada
+  - [country-flag-icons](https://github.com/lipis/flag-icons) – ícones de bandeiras por país
+  - [react-simple-icons](https://github.com/icons-pack/react-simple-icons) – ícones de tecnologias e marcas
+- **Linguagens:** TypeScript, JavaScript, Nextjs, TailwindCss.
+- **Gerenciador de Pacotes:** npm
 
+---
 
-## Instalação
+## 📦 Instalação e Execução
 
-Clone o Repositorio
+Clone o repositório:
 
 ```bash
-  git clone https://github.com/RonaldMamani/MeuPortifolio.git
+## Clone o Repositorio
+git clone https://github.com/RonaldMamani/MeuPortifolio.git
+
+## Instale as dependências:
+npm install
+
+## Inicie o projeto:
+npm run dev
 ```
 
-Execute o codigo com 
+# 🌐 Deploy
 
-```bash
-    npm run dev
-```
-## Link do Deploy
+O Portifolio está hospedado na Vercel:
 
-O site esta hospedado no momento, esta na vercel com deploy realizado.
+🔗 [Portifolio Hospedado](https://ronaldmamani-dev.vercel.app/)
 
-Link: https://ronaldmamani-dev.vercel.app/
+# 📚 Aprendizados
+Durante o desenvolvimento deste portfólio, aprimorei meus conhecimentos em:
 
-## Aprendizados
+Deploy de aplicações com Next.js na Vercel
 
-Aprendi a fazer deploy com NextJS com a vercel, tambem a utilização de dependencias do npm, e tambem conhecimentos solidos com typescript e reactjs com nextjs, tambem utilização do TailwindCSS.
+Integração de bibliotecas visuais como Swiper, Typed.js, country-flag-icons e react-simple-icons
 
+Desenvolvimento com TypeScript, React.js, Nextjs e suas funcionalidades e Hooks.
 
-## Autores
+Criação de interfaces modernas e responsivas com TailwindCSS
 
-- [@Ronaldmamani](https://www.github.com/RonaldMamani)
+# 👨‍💻 Autor
+GitHub: [@Ronaldmamani](https://www.github.com/RonaldMamani)
 
